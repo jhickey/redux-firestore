@@ -1,7 +1,6 @@
 node_modules
 lib
 dist
-es
 *.log
 coverage
 .idea
