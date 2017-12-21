@@ -162,6 +162,7 @@ export const setListener = (firebase, dispatch, queryOpts, successCb, errorCb) =
         payload: {
           data: dataByIdSnapshot(docData),
           ordered: orderedFromSnap(docData),
+          snapshot: docData
         },
       });
       if (successCb) {
